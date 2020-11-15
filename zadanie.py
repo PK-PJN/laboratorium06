@@ -33,7 +33,7 @@ def main():
         text = mwp.parse(row[1]).strip_code(keep_template_params=False)
         text = NONLETTERS_RE.sub(' ', text)
         # TU(11a): zamiast poniższego wiersza zapisać dodawanie do `texts`
-        # ' '.join(jednoznaczna_forma_podstawowa(w for w in text.split()))
+        # ' '.join(jednoznaczna_forma_podstawowa(w) for w in text.split())
         texts.append(text)
     logging.info('Tworzenie modelu. To potrwa do pół minuty.')
     # TU(10b): Zamienić na TfidfVectorizer.
