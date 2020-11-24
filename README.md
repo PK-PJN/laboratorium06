@@ -10,8 +10,8 @@ bazę danych SQLite z treścią artykułów polskiej
 Wikipedii na dany temat.
 
     ```
-    git clone https://github.com/PK-PJN/laboratorium05.git
-    cd laboratorium05
+    git clone https://github.com/PK-PJN/laboratorium06.git
+    cd laboratorium06
     unzip literatura.zip <<<LUB>>> unzip filmy.zip
     ```
 
